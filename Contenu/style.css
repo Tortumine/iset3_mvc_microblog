@@ -1,0 +1,40 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #bfbfbf;
+    background: black;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+textarea {
+	width:100%;
+}
+
+.titreBillet {
+    margin-bottom : 0px;
+}
+.jumbotron {
+	margin : 5px;
+	padding : 30px;
+	border-radius : 15px;
+}
+
+#global {
+    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
+    background: #333534;
+    width: 70%;
+    margin: auto;	/* Permet de centrer la div */
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#titreBlog, #piedBlog {
+    text-align: center;
+}
